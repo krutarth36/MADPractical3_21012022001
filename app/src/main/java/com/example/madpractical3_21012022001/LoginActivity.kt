@@ -1,11 +1,14 @@
-package com.example.madpractical3_21012022059
+package com.example.madpractical3_21012022001
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.madpractical3_21012022059.databinding.ActivityLoginBinding
+
+import com.example.madpractical3_21012022001.databinding.ActivityLoginBinding
+import com.example.madpractical3_21012022001.R
 
 class LoginActivity : AppCompatActivity() {
+    
     private lateinit var binding: ActivityLoginBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

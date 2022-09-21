@@ -1,9 +1,9 @@
-package com.example.madpractical3_21012022059
+package com.example.madpractical3_21012022001
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.madpractical3_21012022059.databinding.ActivityRegistrationBinding
+import com.example.madpractical3_21012022001.databinding.ActivityRegistrationBinding
 
 class RegistrationActivity : AppCompatActivity() {
     private lateinit var binding: ActivityRegistrationBinding

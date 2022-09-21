@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.madpractical3_21012022059">
+    package="com.example.madpractical3_21012022001">
 
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="MADPractical3_21012022001"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Base.MAD_Login_UI_Practical"
         tools:targetApi="31">
         <activity
             android:noHistory="true"
-            android:label="MADPractical3_21012022059_UV"
-            android:name=".RegistrationActivity"
+            android:label="MADPractical3_21012022001"
+            android:name="com.example.madpractical3_21012022001.RegistrationActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,10 +26,10 @@
         <activity
             android:noHistory="true"
             android:label="Login UI-MAD Practical"
-            android:name=".LoginActivity"
+            android:name="com.example.madpractical3_21012022001.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.madpractical3_21012022001.MainActivity"
             android:exported="true">
 
         </activity>
